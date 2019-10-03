@@ -27,12 +27,12 @@ public class Brackets {
 			System.out.println(index);
 
 		//checking character at each index of string	
-		char brace = pattern.charAt(0);
-		System.out.println(brace);
+		char braces = pattern.charAt(0);
+		System.out.println(braces);
 
 		}
 
-		if(brace == "{" ) {
+		if(int openCurly == "{" ) {
 			return openCurly++;
 		}
 		
