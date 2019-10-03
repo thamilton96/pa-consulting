@@ -1,0 +1,30 @@
+package revision;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ColourTest {
+
+	@Test
+	public void testSeeColor() {
+		
+		Colour colour = new Colour();
+		
+		String color = "";
+		
+		if(color.startsWith("red")) {
+			color = "red";
+		}
+		else if (color.startsWith("blue")) {
+			color = "blue";
+		}
+		else {
+			color = "";
+		}
+		
+		assertEquals("redxx", color);
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package revision;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		
+		Practice practice = new practice();
+		
+		practice.sleepIn();
+	}
+		
+		public void sleepIn() {
+			
+			if weekday = true
+					System.out.println(weekday);
+			System.out.println(no sleep in);
+		}
+		
+		if vacation = true
+				System.out.println(vacation);
+		System.out.println(sleep in);
+	}
+
+}

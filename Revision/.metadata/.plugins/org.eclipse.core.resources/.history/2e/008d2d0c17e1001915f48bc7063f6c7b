@@ -1,0 +1,52 @@
+package revision;
+
+import java.util.ArrayList;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Test test = new Test();
+
+		ArrayList<String> arrays = test.returnArrayList();
+		System.out.println("the array list is:" + arrays);
+		
+		test.addStringToArrayList();
+		
+		test.removeString();
+
+	}
+
+	public ArrayList<String> returnArrayList() {
+
+		ArrayList<String> list = new ArrayList();
+		list.add("Elephant");
+		list.add("Rhino");
+		list.add("Lion");
+//		list.add("Dog");
+
+		return list; 
+	}
+
+	public void addStringToArrayList() {
+		ArrayList<String> listOfStuff = new ArrayList<String>();
+		listOfStuff.add("Dog");
+		listOfStuff.add("Cat");
+		
+		return
+
+	}
+	
+	public void removeString() {
+		ArrayList<String> listOfStuff = new ArrayList<String>(); 
+		listOfStuff.add("Good");
+		listOfStuff.add("Morning");
+
+		System.out.println("Size of Array:" + listOfStuff.size());
+		
+		listOfStuff.remove("Elephant");
+
+		System.out.println("Size of Array:" + listOfStuff.size());
+}
+}
+

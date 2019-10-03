@@ -1,0 +1,22 @@
+package revision;
+
+
+public class Nth {
+
+	public static void main(String[] args) {
+		
+		Nth nth = new Nth(); 
+		
+		String outcome = nth.everyNth
+
+	}
+
+	public String everyNth(String words, int index) {
+		
+		
+		return "String none";
+		
+	}
+
+	
+}

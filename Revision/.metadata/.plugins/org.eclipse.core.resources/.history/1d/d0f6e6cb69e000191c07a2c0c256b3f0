@@ -1,0 +1,25 @@
+package revision;
+
+public class Practice {
+
+
+	public static void main(String[] args) {
+
+		Practice practice = new Practice();
+
+		boolean sleepIn = practice.sleepIn(false, false);
+		System.out.println(sleepIn);
+	}
+
+	public boolean sleepIn(boolean weekday, boolean vacation) {
+		System.out.println("Sleep in:" + weekday);
+		System.out.println("Vacation in:" + vacation);
+
+
+		return true;
+	}
+
+}
+
+
+

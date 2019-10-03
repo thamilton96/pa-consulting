@@ -1,0 +1,11 @@
+package revision;
+
+public class StringCatDriver {
+
+	public static void main(String[] args) {
+		
+		//don't have to use new keyword
+		StringCat.concatenate("one", "two"); 
+	}
+
+}

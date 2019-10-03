@@ -1,0 +1,27 @@
+package revision;
+
+import java.util.Scanner;
+import java.util.Stack;
+
+public class Brackets {
+	public static String balancedBrackets(String pattern) {
+		
+		String str = "";
+		int openCurly;
+		int closedCurly;
+		int openBrace;
+		int closedBrace;
+		int openSquare;
+		int closedSquare;
+		
+		if(String.length() == 0 || Strng.length() % 2== 1) {
+			
+		}
+		
+		if (openCurly == closedCurly
+	
+	
+    }
+}
+	
+		

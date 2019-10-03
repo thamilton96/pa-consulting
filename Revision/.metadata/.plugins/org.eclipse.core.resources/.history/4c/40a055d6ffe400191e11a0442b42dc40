@@ -1,0 +1,16 @@
+package revision;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StringCatTest {
+
+	@Test
+	public void testConcatenate() {
+		StringCat.concatenate("string1", "string2");
+		
+		assertEquals("string1string2", )
+	}
+
+}

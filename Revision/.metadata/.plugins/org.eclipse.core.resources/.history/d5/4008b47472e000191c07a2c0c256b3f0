@@ -1,0 +1,15 @@
+package revision;
+
+public class Hi {
+
+	public static void main(String[] args) {
+		
+		Hi hi = new Hi();
+	}
+	
+	public boolean startHi(String) {
+		System.out.println();
+		
+		return true;
+	}
+}

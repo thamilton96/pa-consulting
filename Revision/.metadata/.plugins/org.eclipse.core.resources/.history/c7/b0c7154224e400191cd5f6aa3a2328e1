@@ -1,0 +1,43 @@
+package revision;
+
+public class AnotherClass {
+	
+	String s;
+
+/**
+ * 
+ * @param args
+ */
+	public static void main(String[] args) {
+		
+		/**
+		 * instantiating new instance of class
+		 */
+		AnotherClass anotherClass = new AnotherClass();
+		
+		int outcome = anotherClass.countXX("abcxx"); // returns 5
+		System.out.println(outcome);
+		
+		int outcome1 = anotherClass.countXX("xxx"); // returns 3
+		System.out.println(outcome1);
+		
+		int outcome2 = anotherClass.countXX("xxxx"); // returns 4
+		System.out.println(outcome2);
+
+
+		if(outcome == 5 && outcome1 == 3 && outcome2 == 4) {
+			System.out.println("It worked");
+		}
+
+	}
+
+	public int countXX(String word) {
+		
+
+		/**
+		 * .length method gets length of strength
+		 */
+		return word.length(); 
+
+	}
+}

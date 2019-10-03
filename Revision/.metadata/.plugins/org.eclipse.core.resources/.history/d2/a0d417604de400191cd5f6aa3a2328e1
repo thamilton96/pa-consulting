@@ -1,0 +1,14 @@
+package revision;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class String2Test2 {
+
+	@Test
+	public void testMiddleTwo() {
+		assertEquals(true, true);
+	}
+
+}

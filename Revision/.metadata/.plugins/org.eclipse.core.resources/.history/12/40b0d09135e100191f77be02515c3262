@@ -1,0 +1,38 @@
+package revision;
+
+
+public class Nth {
+	
+	String s;
+	int n;
+
+
+	public static void main(String[] args) {
+		
+		Nth nth = new Nth(); 
+		
+		String outcome = nth.everyNth("Miracle", 2); //gives "Mrce"
+		System.out.println(outcome);
+		
+		String outcome1 = nth.everyNth("abcdefg", 2); //gives "aceg"
+		System.out.println(outcome);
+		
+		String outcome2 = nth.everyNth("abcdefg", 3); //gives "adg"
+		System.out.println(outcome);	
+		
+		if(outcome = "Mrce" && outcome1 == "aceg" && outcome2 == "adg") {
+			System.out.println("It worked");
+			
+		}
+
+	}
+
+	public String everyNth(String words, int index) {
+		
+	
+		return "String none";
+		
+	}
+
+	
+}

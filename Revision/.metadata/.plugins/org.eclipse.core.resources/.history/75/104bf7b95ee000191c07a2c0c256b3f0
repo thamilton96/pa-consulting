@@ -1,0 +1,82 @@
+package revision;
+
+public class StringExample {
+
+	public static void main(String[] args) {
+		StringExample examples = new StringExample();
+		//		examples.firstCharacter();
+		//		
+		//		examples.startCharacter();
+		//		
+		//		examples.endCharacter();
+		//		
+//		examples.subCharacter();
+//
+//		examples.containsString();
+//
+//		examples.indexString();
+
+		examples.splitString();
+		
+		examples.upperString();
+	}
+
+	//	public void firstCharacter() {
+	//		String name = "martin";
+	//		char letter = name.charAt(5);
+	//		System.out.println(letter);
+	//	}
+	//	
+	//	public void startCharacter() {
+	//		String name = "martin";
+	//		boolean startWith = name.startsWith("mart");
+	//		if(startWith) {
+	//			System.out.println("it starts with the character");
+	//		}
+	//	}
+	//	
+	//	public void endCharacter() {
+	//		String name = "Tori";
+	//		boolean startWith = name.endsWith("itn");
+	//		if(startWith) {
+	//			System.out.println("it ends with the character");
+	//		}
+	//		
+
+//	public void subCharacter() {
+//		String name = "martin";
+//		String subCharacter = name.substring(2, 4);
+//		System.out.println(subCharacter);
+//	}
+//	// returns rt
+//
+//	public void containsString() {
+//		String name = "martin";
+//		boolean contains = name.contains("rti");
+//		if(contains) {
+//			System.out.println("it contains");
+//		}
+//	}
+//
+//	public void indexString() {
+//		String name = "martin";
+//		int index = name.indexOf("in");
+//		System.out.println("Index of " + index);
+//	}
+
+	public void splitString() {
+		String sentence = "I am studying";
+		String[] strings = sentence.split(" ");
+//		System.out.println("Length is " + strings.length);
+	
+	
+//	for (int index = 0; index < strings.length; index++)
+//		System.out.println(strings[index]);
+	}
+	
+	public void upperString() {
+		String sentence = "I am studying";
+		sentence.toUpperCase();
+		System.out.println("upper case sentence" + sentence);
+	}
+}

@@ -1,0 +1,92 @@
+package revision;
+
+public class IfConditions {
+	
+	//global variables
+	private int a = 5;
+	private int b = 4;
+	boolean result;
+
+	public static void main(String[] args) {
+		
+		IfConditions ifConditions = new IfConditions();
+		ifConditions.printConditions();
+		
+		forConditions forConditions = new forConditions();
+		forConditions.forConditions();
+	}
+	
+	public void forConditions() {
+
+		for(int index = 0; index < 10 ; index++) {
+			System.out.println("index:" + index);
+		}
+	}
+	
+	public void printConditions() {
+		
+		if(a == b) {
+			System.out.println("A equals B");
+		}
+		else {
+			System.out.println("A does not equal B");
+		}
+		
+		if(a < b) {
+			System.out.println("A is less than B");
+		}
+		else {
+			System.out.println("A is not less than B");
+		}
+		
+		if(!(a < b)) {
+			System.out.println("A is not less than B");
+		}
+		else {
+			System.out.println("A is less than B");
+		}
+
+		if(a > b) {
+			System.out.println("A is bigger than B");
+		}
+		else {
+			System.out.println("A is not bigger than B");
+		}
+
+		if(a <= 4) {
+			System.out.println("A is less than or equal to 4");
+		}
+		else {
+			System.out.println("A is not less than or equal to 4");
+		}
+		
+		if(b >= 6) {
+			System.out.println("B is bigger than or equal to 6");
+		}
+		else {
+			System.out.println("B is not bigger than or equal to 6");
+		}
+		
+		if(a != b) {
+			System.out.println("A is not equal to B");
+		}
+		else {
+			System.out.println("A is equal to B");
+		}
+		
+		if(a>b || a<b) {
+			System.out.println("A is bigger than B or A is less than B");
+		}
+		else {
+			System.out.println("A is either not bigger than B or not less than B");
+		}
+		if(3 < a && a < 6) {
+			System.out.println("A is bigger than 3 and less than 6");
+		}
+		else {
+			System.out.println("This statement is false");
+		}
+
+	}
+
+}

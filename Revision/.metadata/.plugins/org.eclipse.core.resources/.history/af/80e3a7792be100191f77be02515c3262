@@ -1,0 +1,41 @@
+package revision;
+
+public class Temperature {
+
+	public static void main(String[] args) {
+		
+		Temperature temperature = new Temperature();
+		
+		 //Have to assign method to  
+		//first data type then give it a name then put new class instance then method name
+		boolean outcome = temperature.icyHot(120, -1); // should be true
+		System.out.println(outcome);
+		
+		boolean outcome1 = temperature.icyHot(-1, 120); // should be true
+		System.out.println(outcome1);
+		
+		boolean outcome2 = temperature.icyHot(2, 120); // should be false
+		System.out.println(outcome2);
+	
+		if (icyHot == true & icyHot1 == true && icyHot2 == false) {
+			System.out.println("It worked");
+			
+		}
+	}
+	
+	public boolean icyHot(int temperature1, int temperature2) {
+		System.out.println("");
+		
+		boolean result = true;
+		
+		if(temperature1 < 0 && temperature2 > 100 || temperature1 > 100 && temperature2 < 0  ) {
+			result = true;
+		}
+		else {
+			result = false;
+		}
+		
+		return result;
+	}
+
+}

@@ -1,0 +1,36 @@
+package revision;
+
+public class Temperature {
+
+	public static void main(String[] args) {
+		
+		IcyHot icyHot = new IcyHot();
+		
+		boolean temperature = icyHot.temperature(120,  -1);
+		System.out.println(temperature);
+		
+		boolean temperature1 = icyHot.temperature(-1,  120);
+		System.out.println(temperature1);
+		
+		boolean temperature2 = icyHot.temperature(2,  120);
+		System.out.println(temperature2);
+		
+	
+	}
+	
+	public boolean icyHot(boolean temperature1, boolean temperature2) {
+		System.out.println("");
+		
+		boolean result = true;
+		
+		if(temperature1 < 0 && temperature2 > 100) {
+			result = true;
+		}
+		else {
+			result = false;
+		}
+		
+		return result;
+	}
+
+}

@@ -1,0 +1,50 @@
+package revision;
+
+public class MethodExamples {
+
+	public static void main(String[] args) {
+		MethodExamples methodExamples = new MethodExamples();
+
+		//outcome is name of boolean, only value of boolean is passed to method 
+		boolean outcome = methodExamples.returnSomething();
+		System.out.println("the outcome was:" + outcome);
+		
+		int theValueIs = methodExamples.returnInt();
+		System.out.println("the value is:" + theValueIs);
+		
+		String theSentenceIs = methodExamples.returnString();
+		System.out.println("the sentence is:" + theSentenceIs);
+		
+		int multiple = methodExamples.returnMultiple(8,9);
+		System.out.println("the numbers are:" + multiple);
+	}
+
+	public boolean returnSomething() {
+		// result is a local variable
+		boolean result = true;
+
+		return result;
+
+	}
+	
+	public int returnInt() {
+		int result = 42;
+		
+		return result;
+		
+	}
+	
+	public String returnString() {
+		String result = "hello World";
+		
+		return result;
+		
+	}
+	
+	public int returnMultiple(int a, int b) {
+		int result;
+		
+		return result;
+	}
+	
+}

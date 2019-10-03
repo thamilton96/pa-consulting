@@ -1,0 +1,54 @@
+package revision;
+
+public class Nth {
+
+	String s;
+	int n;
+
+	public static void main(String[] args) {
+
+		/**
+		 * Creating new instances of class
+		 */
+		Nth nth = new Nth(); 
+		nth.everyNth("Miracle", 2);
+		String outcome = nth.everyNth("Miracle",2);
+		String outcome1 = nth.everyNth("abcdefg",2);
+		String outcome2 = nth.everyNth("abcdefg",3);
+		if(outcome == "" && outcome1 == "" && outcome2 == "") {
+			System.out.println("success"); }
+		else {
+			System.out.println("not success");
+		}	
+	}
+	
+	/**
+	 * This method 
+	 * @param String word
+	 * @param int pickNumber
+	 * @return newString
+	 */
+	public String everyNth(String word,int pickNumber) {
+		String newString = "";
+
+		for(int index = 0; index < word.length(); index+=pickNumber) {
+			//index = index +2;
+			System.out.println(word.charAt(index));
+			newString += word.charAt(index);
+			System.out.println(newString);
+		}
+
+		return newString;
+	}
+
+	public String everyNth(String str) {
+
+		String str1 = "Miracle";
+
+		for(int index =0; index < str1.length() ; index++) {
+			System.out.println(str1);
+		}
+
+		return result.charAt(3);
+	}
+}

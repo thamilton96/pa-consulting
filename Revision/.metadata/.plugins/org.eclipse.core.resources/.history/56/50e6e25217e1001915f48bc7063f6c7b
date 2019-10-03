@@ -1,0 +1,69 @@
+package revision;
+
+import java.util.ArrayList;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Test test = new Test();
+
+		ArrayList<String> arrays = test.returnArrayList();
+		System.out.println("the array list is:" + arrays);
+
+		test.addStringToArrayList();
+
+//		test.removeString();
+
+	}
+
+	public ArrayList<String> returnArrayList() {
+
+		ArrayList<String> list = new ArrayList();
+		list.add("Elephant");
+		list.add("Rhino");
+		list.add("Lion");		
+
+		return list; 
+	}
+
+	public ArrayList<String> addStringToArrayList() {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("Dog");
+		list.add("Cat");
+
+		return list;
+
+	}
+
+//	public void removeString() {
+//		ArrayList<String> listOfStuff = new ArrayList<String>(); 
+//		listOfStuff.add("");
+//		listOfStuff.add("");
+//
+//		System.out.println("Size of Array:" + listOfStuff.size());
+//
+//		listOfStuff.remove("Elephant");
+//
+//		System.out.println("Size of Array:" + listOfStuff.size());
+//	}
+//
+//	public void removeString() {
+//		ArrayList<String> listOfStuff = new ArrayList<String>(); 
+//		listOfStuff.add("");
+//		listOfStuff.add("");
+//
+//		System.out.println("Size of Array:" + listOfStuff.size());
+//
+//		listOfStuff.remove("Elephant");
+//		listOfStuff.remove("Rhino");
+//		listOfStuff.remove("Lion");
+//		listOfStuff.remove("Dog");
+//		listOfStuff.remove("Cat");
+//
+//
+//		System.out.println("Size of Array:" + listOfStuff.size());
+//	}
+
+}
+

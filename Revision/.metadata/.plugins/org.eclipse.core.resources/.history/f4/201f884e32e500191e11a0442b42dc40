@@ -1,0 +1,44 @@
+package revision;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CodingBatTest {
+
+	@Test
+	public void testStringE() {
+	}
+		CodingBat codingBat = new CodingBat();
+	
+		boolean result = CodingBat.stringE("Hello");
+		
+		assertEquals(true, outcome);
+		
+		
+	}
+	
+	@Test
+	public void testStringE() {
+		
+		CodingBat codingBat = new CodingBat();
+		
+		boolean result = CodingBat.stringE("Heelle");
+		
+		
+		assertEquals(true, outcome);
+		
+	}
+	
+	@Test
+	public void testStringE() {
+		
+		CodingBat codingBat = new codingBat();
+		
+		boolean result = CodingBat.stringE("Heelele");
+		
+		
+		assertEquals(false, outcome);
+	
+
+}

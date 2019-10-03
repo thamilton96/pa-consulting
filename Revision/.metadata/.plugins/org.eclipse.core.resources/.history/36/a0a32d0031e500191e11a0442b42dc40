@@ -1,0 +1,33 @@
+package revision;
+
+public class CodingBat {
+
+	public static void main(String[] args) {
+
+		CodingBat codingBat = new CodingBat();
+		
+		boolean outcome = codingBat.stringE("Hello");
+		System.out.println(outcome);
+		
+		boolean outcome1 = codingBat.stringE("Hello");
+		System.out.println(outcome1);
+	
+		boolean outcome2 = codingBat.stringE("Hello");
+		System.out.println(outcome2);
+	}
+	
+	public boolean stringE(String word) {
+		boolean result = true;
+		
+		
+		if(word.contains("e") || word.contains("ee") || word.contains("eee")) {
+			result = true;
+		}
+		else {
+			result = false;
+		}
+		
+		return result;
+	}
+
+}

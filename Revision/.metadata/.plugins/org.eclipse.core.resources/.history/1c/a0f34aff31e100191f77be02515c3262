@@ -1,0 +1,47 @@
+package revision;
+
+//Count the number of 'xx' in the given string. XX is 2
+//countXX("abcxx") is 5
+//countXX("xxx") is 3
+//countXX("xxxx") is 4
+
+public class AnotherClass {
+	
+	string s = 
+}
+
+	public static void main(String[] args) {
+
+		AnotherClass anotherClass = new AnotherClass();
+		
+		int outcome = anotherClass.countXX("abcxx"); // returns 5
+		System.out.println(outcome);
+		
+		int outcome1 = anotherClass1.countXX("xxx"); // returns 3
+		System.out.println(outcome1);
+		
+		int outcome2 = anotherClass2.countXX("xxxx"); // returns 4
+		System.out.println(outcome2);
+
+//		for(int i = 0; i < arrays.size(); i++) {
+//			arrays.get(i);
+
+		//}
+
+		if(outcome == 5 && outcome1 == 3 && outcome2 == 4) {
+			System.out.println("It worked");
+		}
+
+	}
+
+	public int countXX(int a) {
+
+		for(int index =0; index < .size(); index++) {
+			String indexValue = listOfStuff.get(index);
+			System.out.println("Value of string:" + indexValue);
+
+
+		return result; 
+
+	}
+}

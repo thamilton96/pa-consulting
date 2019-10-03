@@ -1,0 +1,17 @@
+package revision;
+
+public class String2 {
+
+	public String middleTwo(String str) {
+		String newString = String
+		
+		for(int i = 0; i < str.length(); i++) {
+			
+		}
+		
+		find length of string divide by 2 and add 1
+		
+		return String;	
+	}
+
+}

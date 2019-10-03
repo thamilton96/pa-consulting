@@ -1,0 +1,15 @@
+package revision;
+
+public class MethodExamples {
+	public static void main(String[] args) {
+		MethodExamples methodExamples = new MethodExamples();
+		methodExamples.returnSomething();
+	}
+
+	public boolean returnSomething() {
+		boolean result = false;
+		
+		return result;
+		
+	}
+}

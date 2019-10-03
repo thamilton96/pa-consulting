@@ -1,0 +1,18 @@
+package revision;
+
+public class MethodExamples {
+
+	public static void main(String[] args) {
+		MethodExamples methodExamples = new MethodExamples();
+
+		boolean outcome = methodExamples.returnSomething();
+		System.out.println("the outcome was:" + outcome);
+	}
+
+	public boolean returnSomething() {
+		boolean result = false;
+
+		return result;
+
+	}
+}

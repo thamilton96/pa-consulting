@@ -1,0 +1,48 @@
+package revision;
+
+public class Practice {
+
+	private String day;
+	private String weekday;
+	private String weekend;
+	private String vacation;
+	private String toSleepIn(true, false, false);
+
+	public static void main(String[] args) {
+
+		Practice practice = new Practice();
+
+		practice.sleepIn();
+	}
+
+	public void sleepIn(boolean toSleepIn, boolean vacation, boolean weekend) {
+		System.out.println("Sleep in:" + toSleepIn);
+		System.out.println("Vacation in:" + vacation);
+		System.out.println("Weekend in:" + weekend);
+
+		if (day == weekday) {
+			System.out.println("weekday");
+		}
+		else {
+			System.out.println("weekend");
+		}
+
+		if (day == vacation) {
+			System.out.println("vacation");
+		}
+		else {
+			System.out.println("Not vacation");
+		}
+
+		if (day == vacation && weekend)
+		System.out.println("sleep in");
+	    
+	    else {
+		System.out.println("no sleep in");
+	}
+
+
+}
+}
+
+

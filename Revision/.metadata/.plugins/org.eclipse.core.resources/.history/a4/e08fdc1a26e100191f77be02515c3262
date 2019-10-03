@@ -1,0 +1,81 @@
+package revision;
+
+import java.util.ArrayList;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Test test = new Test();
+		
+		ArrayList<String> listOfAnimals = animal.createAnimalArray();
+		ArrayList<String> listOfAnimalsExtra = animal.addDorAndCat();
+
+		ArrayList<String> arrays = test.createAnimalList();
+		System.out.println("the array list is:" + arrays);
+
+		ArrayList<String> adding = test.addDogAndCat();
+		System.out.println("adding to array list:" + arrays);
+		
+		test.addDogAndCat(animalList);
+		
+		ArrayList<String>
+		
+		System.out.println(listOfAnimalsExtra); 
+
+	}
+
+	/**
+	 * 
+	 * @return array list of elephant, rhino and lion
+	 */
+	public ArrayList<String> createAnimalList() {
+
+		ArrayList<String> animalList = new ArrayList<String>();
+		animalList.add("Elephant");
+		animalList.add("Rhino");
+		animalList.add("Lion");		
+	}
+
+	/**
+	 * Adds dog and cat to array list
+	 * @return
+	 */
+	public ArrayList<String> addDogAndCat(ArrayList<String> animalList) {
+		animalList.add("Dog");
+		animalList.add("Cat");
+
+		return animalList;
+
+	}
+
+	/**
+	 * Removes elephant from array
+	 */
+	public ArrayList<String>  removeElephant( ArrayList<String> animalList) {
+		if (animalList.contains("Elephant");
+		animalList.remove("Elephant");
+	}
+
+	/**
+	 * Removes all animals from the array and prints that list is empty
+	 */
+	public void removeString() {
+		ArrayList<String> listOfStuff = new ArrayList<String>(); 
+		listOfStuff.add("");
+		listOfStuff.add("");
+
+		System.out.println("Size of Array:" + listOfStuff.size());
+
+		listOfStuff.remove("Elephant");
+		listOfStuff.remove("Rhino");
+		listOfStuff.remove("Lion");
+		listOfStuff.remove("Dog");
+		listOfStuff.remove("Cat");
+
+
+		System.out.println("Size of Array:" + listOfStuff.size());
+	}
+
+}
+

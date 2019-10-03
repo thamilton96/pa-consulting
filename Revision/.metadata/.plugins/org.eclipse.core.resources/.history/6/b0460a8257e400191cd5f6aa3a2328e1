@@ -1,0 +1,29 @@
+package revision;
+/*" Given a string, return true if "bad" appears starting at index 0 or 1 in the string,
+ *  such as with "badxxx" or "xbadxx" but not "xxbadxx".
+ * 
+ * hasBad("badxx") -> true
+ * hasBad("xbadxx") -> true
+ * hasBad("xxbadxx") -> false
+ */
+public class Bad {
+	
+	public boolean hasBad(String str) {
+		boolean result = true;
+		
+		first get index 0 or 1 of str
+		
+		then check if starts with char
+		
+		String word = "";
+		String subCharacter = str.substring(0, 2);
+		System.out.println(subCharacter);
+		
+		if(str.startsWith("bad")) {
+			return true;
+		}
+		
+		return result;
+	}
+
+}

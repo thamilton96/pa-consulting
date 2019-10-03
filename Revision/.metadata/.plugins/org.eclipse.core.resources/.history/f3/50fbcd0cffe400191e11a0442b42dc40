@@ -1,0 +1,10 @@
+package revision;
+
+public class StringCat {
+	
+	//returns two strings joined together
+	public static String concatenate(String one, String two) {
+		return one + two;
+	}
+
+}

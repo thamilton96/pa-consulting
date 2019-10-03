@@ -1,0 +1,14 @@
+package revision;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CodingBatTest {
+
+	@Test
+	public void testStringE() {
+		fail("Not yet implemented");
+	}
+
+}

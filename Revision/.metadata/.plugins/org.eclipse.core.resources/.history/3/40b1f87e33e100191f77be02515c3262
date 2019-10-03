@@ -1,0 +1,21 @@
+package revision;
+
+public class Nth {
+
+	public static void main(String[] args) {
+		
+		Nth nth = new Nth(); 
+		
+		
+
+	}
+
+	public String everyNth(String words, int index) {
+		
+		
+		return "String none";
+		
+	}
+
+	
+}

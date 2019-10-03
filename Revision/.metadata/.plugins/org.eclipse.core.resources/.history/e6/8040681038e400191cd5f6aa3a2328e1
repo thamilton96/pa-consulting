@@ -1,0 +1,19 @@
+package revision;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class NthTest {
+
+	@Test
+	public void testEveryNth() {
+		
+		Nth nth = new Nth();
+		
+		String outcome = nth.everyNth("Miracle",2);
+		
+		assertEquals("Mrce", )
+	}
+
+}

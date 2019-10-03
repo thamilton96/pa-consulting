@@ -1,0 +1,37 @@
+package revision;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class WelcomeToClassTest {
+
+	@Test
+	/**
+	 * This method tests if "Hello Bob!" is returned
+	 */
+	public void testHelloBob() {
+		
+		String result = WelcomeToClass.helloName("Bob");
+		
+		assertEquals("Hello Bob!", result);
+	}
+	
+	@Test
+	public void testHelloAlice() {
+		
+    String result = WelcomeToClass.helloName("Alice");
+		
+		assertEquals("Hello Alice!", result);
+		
+	}
+	
+	@Test
+	public void testHelloX() {
+		
+		String result = WelcomeToClass.helloName("X");
+		
+		assertEquals("Hello X!", result);
+	}
+
+}

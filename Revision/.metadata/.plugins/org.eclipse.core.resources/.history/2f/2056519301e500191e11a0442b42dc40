@@ -1,0 +1,21 @@
+package revision;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class WelcomeToClassTest {
+
+	@Test
+	public void testHelloName() {
+		
+		String result = WelcomeToClass.helloName("Bob");
+		
+//		String result = WelcomeToClass.helloName("Alice");
+//		
+//		String result = WelcomeToClass.
+		
+		assertEquals("Hello Bob!", result);
+	}
+
+}

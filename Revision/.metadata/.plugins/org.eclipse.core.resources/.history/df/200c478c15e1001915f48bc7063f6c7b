@@ -1,0 +1,25 @@
+package revision;
+
+import java.util.ArrayList;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Test test = new Test();
+		
+		ArrayList<String> arrays = Test.returnArrayList();
+		System.out.println("the array list is:" + arrays);
+
+	}
+
+	public ArrayList<String> returnArrayList() {
+
+		ArrayList<String> list = new ArrayList();
+		list.add("Elephant");
+		list.add("Rhino");
+		list.add("Lion");
+
+		return list; 
+	}
+}

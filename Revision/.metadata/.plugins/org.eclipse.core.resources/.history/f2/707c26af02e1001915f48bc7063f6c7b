@@ -1,0 +1,20 @@
+package revision;
+
+public class MethodExamples {
+
+	public static void main(String[] args) {
+		MethodExamples methodExamples = new MethodExamples();
+
+		//outcome is 
+		boolean result = methodExamples.returnSomething();
+		System.out.println("the outcome was:" + result);
+	}
+
+	public boolean returnSomething() {
+		// result is a local variable
+		boolean result = true;
+
+		return result;
+
+	}
+}

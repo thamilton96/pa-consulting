@@ -1,0 +1,14 @@
+package revision;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StringCatTest {
+
+	@Test
+	public void testConcatenate() {
+		public static String concatenate(String string1, String string2)
+	}
+
+}

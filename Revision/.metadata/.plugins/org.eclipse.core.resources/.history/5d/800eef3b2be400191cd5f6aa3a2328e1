@@ -1,0 +1,13 @@
+package revision;
+
+public class StringConcatenate {
+	
+	public String concatenate(String one, String two) {
+		return one + two;
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}
